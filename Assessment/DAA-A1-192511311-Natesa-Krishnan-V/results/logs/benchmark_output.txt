@@ -1,0 +1,48 @@
+================================================================
+ DAA Assignment 1 - Benchmark (all algorithms x all dataset sizes)
+ Name            : Natesa Krishnan V
+ Registration No.: 192511311
+ Group           : A   (Dataset seed: 1311)
+================================================================
+
+##### DATASET SIZE n = 1,000 #####
+Algorithm               Key        Result      Comps/Ops   Preproc(ms)   Search(ms)     Total(ms)
+Linear Search           192511311  FOUND              47        0.0000     0.001870        0.0019
+Linear Search           192511312  NOT FOUND        1000        0.0000     0.053482        0.0535
+Recursive Binary Search 192511311  FOUND               7        0.0633     0.001420        0.0647
+Recursive Binary Search 192511312  NOT FOUND          10        0.0633     0.001307        0.0646
+Hash Table Search       192511311  FOUND               2        0.2400     0.000246        0.2402
+Hash Table Search       192511312  NOT FOUND           2        0.2400     0.000231        0.2402
+All three algorithms agree on results: True
+
+##### DATASET SIZE n = 10,000 #####
+Algorithm               Key        Result      Comps/Ops   Preproc(ms)   Search(ms)     Total(ms)
+Linear Search           192511311  FOUND            8849        0.0000     0.498781        0.4988
+Linear Search           192511312  NOT FOUND       10000        0.0000     0.610445        0.6104
+Recursive Binary Search 192511311  FOUND              14        1.2865     0.001863        1.2884
+Recursive Binary Search 192511312  NOT FOUND          14        1.2865     0.002519        1.2891
+Hash Table Search       192511311  FOUND               2        2.8718     0.000135        2.8719
+Hash Table Search       192511312  NOT FOUND           2        2.8718     0.000135        2.8719
+All three algorithms agree on results: True
+
+##### DATASET SIZE n = 100,000 #####
+Algorithm               Key        Result      Comps/Ops   Preproc(ms)   Search(ms)     Total(ms)
+Linear Search           192511311  FOUND           41117        0.0000     1.934495        1.9345
+Linear Search           192511312  NOT FOUND      100000        0.0000     4.222095        4.2221
+Recursive Binary Search 192511311  FOUND              17       18.5323     0.002879       18.5352
+Recursive Binary Search 192511312  NOT FOUND          17       18.5323     0.003194       18.5355
+Hash Table Search       192511311  FOUND               2       40.5688     0.000134       40.5689
+Hash Table Search       192511312  NOT FOUND           1       40.5688     0.000082       40.5688
+All three algorithms agree on results: True
+
+##### DATASET SIZE n = 1,000,000 #####
+Algorithm               Key        Result      Comps/Ops   Preproc(ms)   Search(ms)     Total(ms)
+Linear Search           192511311  FOUND          256094        0.0000     8.248608        8.2486
+Linear Search           192511312  NOT FOUND     1000000        0.0000    37.027822       37.0278
+Recursive Binary Search 192511311  FOUND              18      278.1463     0.002307      278.1486
+Recursive Binary Search 192511312  NOT FOUND          20      278.1463     0.002728      278.1490
+Hash Table Search       192511311  FOUND               2      600.8523     0.000133      600.8524
+Hash Table Search       192511312  NOT FOUND           2      600.8523     0.000139      600.8524
+All three algorithms agree on results: True
+
+Saved: /home/claude/DAA-A1-192511311-Natesa-Krishnan-V/results/results.csv

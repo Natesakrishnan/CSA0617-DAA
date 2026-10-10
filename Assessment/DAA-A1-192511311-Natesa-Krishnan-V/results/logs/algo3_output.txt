@@ -1,0 +1,16 @@
+================================================================
+ DAA Assignment 1 - Algorithm 3: Hash Table Search (Group A)
+ Name            : Natesa Krishnan V
+ Registration No.: 192511311
+ Group           : A   (Dataset seed: 1311)
+================================================================
+n=    1,000 | key=192511311 | FOUND     | index/key=       46 | ops= 2 | build=    0.1604 ms | search= 0.000135 ms | total=    0.1605 ms
+n=    1,000 | key=192511312 | NOT FOUND | index/key=192511312 | ops= 2 | build=    0.1604 ms | search= 0.000135 ms | total=    0.1605 ms
+n=   10,000 | key=192511311 | FOUND     | index/key=     8848 | ops= 2 | build=    2.5082 ms | search= 0.000137 ms | total=    2.5084 ms
+n=   10,000 | key=192511312 | NOT FOUND | index/key=192511312 | ops= 2 | build=    2.5082 ms | search= 0.000135 ms | total=    2.5084 ms
+n=  100,000 | key=192511311 | FOUND     | index/key=    41116 | ops= 2 | build=   41.1797 ms | search= 0.000133 ms | total=   41.1798 ms
+n=  100,000 | key=192511312 | NOT FOUND | index/key=192511312 | ops= 1 | build=   41.1797 ms | search= 0.000090 ms | total=   41.1798 ms
+n=1,000,000 | key=192511311 | FOUND     | index/key=   256093 | ops= 2 | build=  557.1877 ms | search= 0.000133 ms | total=  557.1879 ms
+n=1,000,000 | key=192511312 | NOT FOUND | index/key=192511312 | ops= 2 | build=  557.1877 ms | search= 0.000143 ms | total=  557.1879 ms
+
+Saved: /home/claude/DAA-A1-192511311-Natesa-Krishnan-V/results/hash_table_results.csv

@@ -1,0 +1,16 @@
+================================================================
+ DAA Assignment 1 - Algorithm 2: Recursive Binary Search
+ Name            : Natesa Krishnan V
+ Registration No.: 192511311
+ Group           : A   (Dataset seed: 1311)
+================================================================
+n=    1,000 | key=192511311 | FOUND     | index(sorted)=     756 | comparisons=  7 | sort=    0.0704 ms | search= 0.000855 ms | total=    0.0713 ms
+n=    1,000 | key=192511312 | NOT FOUND | index(sorted)=      -1 | comparisons= 10 | sort=    0.0704 ms | search= 0.001292 ms | total=    0.0717 ms
+n=   10,000 | key=192511311 | FOUND     | index(sorted)=    7595 | comparisons= 14 | sort=    1.3378 ms | search= 0.002993 ms | total=    1.3407 ms
+n=   10,000 | key=192511312 | NOT FOUND | index(sorted)=      -1 | comparisons= 14 | sort=    1.3378 ms | search= 0.003087 ms | total=    1.3408 ms
+n=  100,000 | key=192511311 | FOUND     | index(sorted)=   75598 | comparisons= 17 | sort=   22.6236 ms | search= 0.003821 ms | total=   22.6274 ms
+n=  100,000 | key=192511312 | NOT FOUND | index(sorted)=      -1 | comparisons= 17 | sort=   22.6236 ms | search= 0.003338 ms | total=   22.6270 ms
+n=1,000,000 | key=192511311 | FOUND     | index(sorted)=  755937 | comparisons= 18 | sort=  262.7510 ms | search= 0.002317 ms | total=  262.7533 ms
+n=1,000,000 | key=192511312 | NOT FOUND | index(sorted)=      -1 | comparisons= 20 | sort=  262.7510 ms | search= 0.002583 ms | total=  262.7536 ms
+
+Saved: /home/claude/DAA-A1-192511311-Natesa-Krishnan-V/results/binary_search_results.csv

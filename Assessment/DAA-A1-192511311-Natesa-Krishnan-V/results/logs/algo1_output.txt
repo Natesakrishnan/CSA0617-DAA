@@ -1,0 +1,16 @@
+================================================================
+ DAA Assignment 1 - Algorithm 1: Linear Search (iterative)
+ Name            : Natesa Krishnan V
+ Registration No.: 192511311
+ Group           : A   (Dataset seed: 1311)
+================================================================
+n=    1,000 | key=192511311 | FOUND     | index=      46 | comparisons=       47 | time=    0.0013 ms (avg of 1000)
+n=    1,000 | key=192511312 | NOT FOUND | index=      -1 | comparisons=    1,000 | time=    0.0317 ms (avg of 1000)
+n=   10,000 | key=192511311 | FOUND     | index=    8848 | comparisons=    8,849 | time=    0.2875 ms (avg of 100)
+n=   10,000 | key=192511312 | NOT FOUND | index=      -1 | comparisons=   10,000 | time=    0.4066 ms (avg of 100)
+n=  100,000 | key=192511311 | FOUND     | index=   41116 | comparisons=   41,117 | time=    2.3997 ms (avg of 10)
+n=  100,000 | key=192511312 | NOT FOUND | index=      -1 | comparisons=  100,000 | time=    4.5027 ms (avg of 10)
+n=1,000,000 | key=192511311 | FOUND     | index=  256093 | comparisons=  256,094 | time=   10.0119 ms (avg of 5)
+n=1,000,000 | key=192511312 | NOT FOUND | index=      -1 | comparisons=1,000,000 | time=   37.7233 ms (avg of 5)
+
+Saved: /home/claude/DAA-A1-192511311-Natesa-Krishnan-V/results/linear_search_results.csv

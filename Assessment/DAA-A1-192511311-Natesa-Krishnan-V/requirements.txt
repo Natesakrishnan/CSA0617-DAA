@@ -1,0 +1,3 @@
+# Only needed for src/generate_graphs.py (the three algorithms use the standard library only)
+pandas
+matplotlib
