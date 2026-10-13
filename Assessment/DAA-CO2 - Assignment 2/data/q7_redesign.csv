@@ -1,0 +1,8 @@
+input,n,original_distance_calcs,redesign_distance_calcs,original_pairs_examined,redesign_pairs_examined,reduction_pct,original_time_ms,redesign_time_ms,answers_equal
+uniform_random,100,4950,175,4950,274,96.46,1.056,0.066,True
+uniform_random,200,19900,277,19900,476,98.61,4.208,0.124,True
+uniform_random,400,79800,545,79800,944,99.32,19.167,0.259,True
+uniform_random,800,319600,1589,319600,2388,99.5,71.677,0.718,True
+uniform_random,1600,1279200,892,1279200,2491,99.93,286.573,0.87,True
+vertical_line_stress,200,19900,19900,19900,19900,0.0,,,True
+vertical_line_stress,800,319600,319600,319600,319600,0.0,,,True

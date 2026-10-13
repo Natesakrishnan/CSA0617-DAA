@@ -1,0 +1,9 @@
+config,n,hull_vertices,matches_monotone_chain,orientation_tests,candidate_pairs,time_ms
+A_mixed_boundary_interior,30,9,True,3134,870,
+B_collinear_challenge,12,5,True,331,132,
+scaling_random,10,8,True,238,90,0.086
+scaling_random,20,8,True,1086,380,0.348
+scaling_random,40,9,True,6323,1560,1.959
+scaling_random,60,13,True,11391,3540,3.59
+scaling_random,80,15,True,23281,6320,7.253
+scaling_random,100,11,True,29109,9900,9.66

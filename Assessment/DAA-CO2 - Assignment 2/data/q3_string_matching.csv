@@ -1,0 +1,13 @@
+case,n_text,m_pattern,alignments,match_index,char_comparisons,comparisons_per_text_char,worst_bound_(n-m+1)*m
+low_work_random26,1000,6,995,-1,995,0.995,5970
+worst_case_a_runs,1000,100,901,-1,90100,90.1,90100
+binary_random_match_mid,1000,12,989,500,1022,1.022,11868
+low_work_random26,2000,6,1995,-1,1995,0.998,11970
+worst_case_a_runs,2000,100,1901,-1,190100,95.05,190100
+binary_random_match_mid,2000,12,1989,1000,2120,1.06,23868
+low_work_random26,4000,6,3995,-1,3995,0.999,23970
+worst_case_a_runs,4000,100,3901,-1,390100,97.525,390100
+binary_random_match_mid,4000,12,3989,1824,3673,0.918,47868
+low_work_random26,8000,6,7995,-1,7995,0.999,47970
+worst_case_a_runs,8000,100,7901,-1,790100,98.763,790100
+binary_random_match_mid,8000,12,7989,670,1362,0.17,95868
